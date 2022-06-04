@@ -1,0 +1,48 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+    html{
+        font-size: 80%;
+    }
+    .banner .imgslide .banner1{
+        width:100%;
+        background-image: url('../img/mb_banner1.png');
+        background-size: cover;
+        height:40rem;
+        background-position: center;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    html{
+        font-size: 70%;
+    }
+    .swiper-wrapper .swiper-slide:nth-child(1){
+        width:100%;
+        background-image: url('../img/mb_banner1.png');
+        background-size: cover;
+        height:40rem;
+        background-position: center;
+    }
+
+    #header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:2rem;
+    }
+    #header .topmenu{
+        display: none;
+    }
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    #header .nav{
+        display: none;
+    }
+}
+
+
+@media (max-width:480px) { /* mobile */
+}
